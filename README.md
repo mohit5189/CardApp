@@ -4,11 +4,11 @@ App is sample to list cards in UITableview.
 
 # Demo
 
-![ScreenShot](https://github.com/mohit5189/CardApp/tree/master/Assets/app.gif)
+![ScreenShot](https://github.com/mohit5189/CardApp/master/blob/Assets/app.gif)
 
 # Class Diagram
 
-![ScreenShot](https://github.com/mohit5189/CardApp/tree/master/Assets/class.png)
+![ScreenShot](https://github.com/mohit5189/CardApp/master/blob/Assets/class.png)
 
 # Design Pattern
 VIPER
