@@ -2,7 +2,7 @@
 
 App is sample to list cards in UITableview.
 
-# Stepe to run project:
+# Steps to run project:
 1. Clone repo in Mac
 2. Run 'pod install' in terminal, by going to root folder.
 3. Open CardApp.xcworkspace
@@ -13,7 +13,7 @@ App is sample to list cards in UITableview.
 3. Then run scripts/link_module.sh <Module-Name>
 4. You can find module in Modules folder.
   
-# Changing foler path
+# Changing folder path for any file
 If you change any path, let say path for router. Please update path in Scripts/CuckooInputFiles.xcfilelist too. It help to generate mock.
 
 # Demo
