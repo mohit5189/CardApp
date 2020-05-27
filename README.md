@@ -9,8 +9,8 @@ App is sample to list cards in UITableview.
 
 # Steps to add modules:
 1. Go to root folder through terminal
-2. Run in terminal generamba gen <Module-Name> viper
-3. Then run scripts/link_module.sh <Module-Name>
+2. Run in terminal generamba gen [Module-Name] viper
+3. Then run scripts/link_module.sh [Module-Name]
 4. You can find module in Modules folder.
   
 # Changing folder path for any file
