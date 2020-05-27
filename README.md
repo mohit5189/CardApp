@@ -4,7 +4,7 @@ App is sample to list cards in UITableview.
 
 # Demo
 
-![ScreenShot](https://github.com/mohit5189/CardApp/master/blob/Assets/app.gif)
+![ScreenShot](https://github.com/mohit5189/CardApp/blob/master/Assets/app.gif)
 
 # Class Diagram
 
