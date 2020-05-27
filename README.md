@@ -8,7 +8,7 @@ App is sample to list cards in UITableview.
 
 # Class Diagram
 
-![ScreenShot](https://github.com/mohit5189/CardApp/master/blob/Assets/class.png)
+![ScreenShot](https://github.com/mohit5189/CardApp/blob/master/Assets/class.png)
 
 # Design Pattern
 VIPER
