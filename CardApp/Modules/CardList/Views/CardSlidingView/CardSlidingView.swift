@@ -51,7 +51,7 @@ final class CardSlidingView: UIView {
     private func adjustSubviews() {
         backgroundColor = .clear
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(detectPan(recognizer:)))
-        panGesture.delaysTouchesBegan = false
+        panGesture.delaysTouchesBegan = true
         panGesture.delaysTouchesEnded = false
         cardView.addGestureRecognizer(panGesture)
         cardBGView.delegate = self
