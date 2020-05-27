@@ -1,0 +1,5 @@
+${SRCROOT}/CardApp/Misc/Routers.swift
+${SRCROOT}/CardApp/Misc/AnyView.swift
+${SRCROOT}/CardApp/Modules/CardList/CardListView.swift
+${SRCROOT}/CardApp/Modules/CardList/CardListInteractor.swift
+${SRCROOT}/CardApp/Modules/CardList/CardListRouter.swift
