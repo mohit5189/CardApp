@@ -53,6 +53,7 @@ final class CardSlidingView: UIView {
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(detectPan(recognizer:)))
         panGesture.delaysTouchesBegan = true
         panGesture.delaysTouchesEnded = false
+        panGesture.delegate = self
         cardView.addGestureRecognizer(panGesture)
         cardBGView.delegate = self
         
@@ -86,7 +87,19 @@ final class CardSlidingView: UIView {
 }
 
 // MARK: PAN Gesture handling
-extension CardSlidingView {
+extension CardSlidingView: UIGestureRecognizerDelegate {
+    override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+          if let panGestureRecognizer = gestureRecognizer as? UIPanGestureRecognizer {
+              let translation = panGestureRecognizer.translation(in: superview!)
+              if abs(translation.x) > abs(translation.y) {
+                  return true
+              }
+              return false
+          }
+          return false
+      }
+
+
     @objc private func detectPan(recognizer: UIPanGestureRecognizer) {
         switch recognizer.state {
         case .began:
